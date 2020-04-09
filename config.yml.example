@@ -1,0 +1,10 @@
+comment_for_routing: "office-vpn"
+network_hash_file: "/tmp/networks_hash"
+router_ip: '192.168.88.1'
+gateway: "office"
+router_user: 'admin'
+router_password: '****'
+hosts:
+  - google.com:
+    - account
+  - habr.com:
