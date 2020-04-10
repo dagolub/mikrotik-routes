@@ -7,4 +7,4 @@ router_password: '****'
 hosts:
   - google.com:
     - account
-  - habr.com:
+  - habr.ru:
