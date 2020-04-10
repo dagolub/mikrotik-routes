@@ -12,8 +12,16 @@ hosts:
     - account #this will be subdomains account.google.com
   - habr.com:
 ```
+**gateway** - this you vpn connection or you can use any ip that can route you to destination hosts
 
-*gateway* - this you vpn connection or you can use any ip that can route you to destination hosts
+### Install requirements
+```bash
+pip3 install -r requirements.txt
+```
+Needed  PyYAML 5.1 and later.
 
 ### Running
 You can simply put this script to cron if yours ips dynamic
+```bash
+python3 mikrotik.py
+```
