@@ -82,6 +82,9 @@ class MikrotikVpnManager:
                                                        )
         return total_added
 
+    def permanent_save_routing(self):
+        #again, cool
+        pass
 
 mikrotik = MikrotikVpnManager()
 mikrotik.provision()
